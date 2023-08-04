@@ -10,8 +10,9 @@ A simple and minimalistic calculator made using JavaScript
 
 ## Installation 🛠️
 
-1. Clone the repository.
-2. Navigate to the project directory.
+1. Clone the repository using `git clone https://github.com/BeanyTheCoder/repo-name.git`.
+
+2. Navigate to the project directory using `cd  repo-name`.
 3. Open the `index.html` file using any web browser of your choice.
 
 ## Screenshots 📷
@@ -26,7 +27,6 @@ A simple and minimalistic calculator made using JavaScript
 ## License 📝
 
 This project is licensed under the [License Name](link-to-license-file).
-
 
 ## Contact 📧
 
