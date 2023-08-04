@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 span {
+  color: #575757;
+}
+
+h1 span:nth-child(2) {
+  color: #df8d28;
+}
+
+body {
+  background-color: #ddd;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.calculator-container {
+  width: fit-content;
+  display: grid;
+  grid-template-areas:
+    "display display display display"
+    "add subtract multiply divide"
+    "seven eight nine equal"
+    "four five six equal "
+    "one two three equal"
+    "zero decimal ac equal";
+  justify-content: center;
+}
+
+.square {
+  background-color: #fff;
+  min-width: 100px;
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #e7e7e7;
+}
+
+#num0 {
+  grid-area: zero;
+}
+
+#num1 {
+  grid-area: one;
+}
+
+#num2 {
+  grid-area: two;
+}
+
+#num3 {
+  grid-area: three;
+}
+
+#num4 {
+  grid-area: four;
+}
+
+#num5 {
+  grid-area: five;
+}
+
+#num6 {
+  grid-area: six;
+}
+
+#num7 {
+  grid-area: seven;
+}
+
+#num8 {
+  grid-area: eight;
+}
+
+#num9 {
+  grid-area: nine;
+}
+
+#decimal {
+  grid-area: decimal;
+}
+
+#ac {
+  grid-area: ac;
+}
+
+#add {
+  grid-area: add;
+}
+
+#subtract {
+  grid-area: subtract;
+}
+
+#multiply {
+  grid-area: multiply;
+}
+
+#divide {
+  grid-area: divide;
+}
+
+#add,
+#subtract,
+#multiply,
+#divide {
+  background-color: #e7e7e7;
+}
+
+#add:hover,
+#subtract:hover,
+#multiply:hover,
+#divide:hover {
+  background-color: #e2e2e2;
+}
+
+#equal {
+  grid-area: equal;
+  background-color: #ffa02d;
+}
+
+#equal:hover {
+  background-color: #df8d28;
+}
+
+#display {
+  grid-area: display;
+  cursor: text;
+  background-color: #000;
+  color: #fff;
+  text-align: right;
+  padding: 0 15px;
+  font-size: 30px;
+}
+
+#display:focus {
+  outline: none;
+}
+
+#display::selection {
+  background-color: #4e4e4e;
+}
