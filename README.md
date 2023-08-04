@@ -31,7 +31,3 @@ This project is licensed under the [License Name](link-to-license-file).
 ## Contact 📧
 
 For any questions or feedback, feel free to reach out to me at alexanderafoko@gmail.com
-
-## Project Status 
-
-It is currently in release v1.0
